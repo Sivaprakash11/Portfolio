@@ -1,0 +1,91 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: right;
+}
+
+nav ul li {
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 2rem;
+}
+
+section {
+    background-color: white;
+    padding: 3rem;
+    border-radius: 50px;
+    box-shadow: 0 0 80px rgba(0, 0, 0, 0.5);
+    max-width: 1200px;
+    margin: 2rem auto;
+    text-align: center;
+    font-size: 1.1rem;
+}
+#home
+{
+    height: 55vh;
+}
+#home img {
+    float: left;
+    width: 250px;  /* Set the width of the image */
+    height: 250px; /* Set the height of the image to make it square */
+    object-fit: cover; /* Ensures the image covers the entire area without distortion */
+    border-radius: 15px; /* Rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-right: 10rem;
+    margin-left: 8rem;
+    margin-top: 2rem;
+}
+
+h1 {
+    margin-top: 0;
+    color: #333;
+    text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.272);
+
+}
+.name{
+    font-size: larger;
+}
+.be{
+    font-size: 1.1em;
+    line-height: 1.6;
+    color: #333;
+    margin-bottom: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 30px;
+    margin-left: 30rem;
+    font-size: 1.5rem;
+    margin-top: -1rem;
+}
+.iam
+{
+    margin-top: 5rem;
+    font-size: x-large;
+}
